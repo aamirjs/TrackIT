@@ -1,0 +1,225 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="assets/rfidreview.css" rel="stylesheet" type="text/css" />
+    <script src="jquery-1.6.2.js" type="text/javascript"></script>
+    <title>TrackIt</title>
+
+	
+	<!--[if IE]> <link href="assets/iefixes.css" rel="stylesheet" type="text/css" /> <![endif]-->
+
+</head>
+
+<body id="extender">
+
+<!-- Header Image -->
+	<div id="headercontainer"><a href="#"><img src="assets/header_img.jpg" name="header" border="0" /></a></div>
+
+<!-- Main Menu -->
+	<div id="mainmenu">
+	
+		<span class="item"><a href="#">hardware reviews</a></span> <span class="menu_break"></span>
+		<span class="item"><a href="#">book reviews</a></span> <span class="menu_break"></span>
+		<span class="item_selected"><a href="#">software reviews</a></span> <span class="menu_break"></span>
+		<span class="item"><a href="#">tag reviews</a></span> <span class="menu_break"></span>
+		<span class="item"><a href="#">interference</a></span> <span class="menu_break"></span>
+		
+	</div>
+
+<!-- Search Box -->
+<div id="searchbox"> 
+
+	<p>[ <a href="#">advanced search</a> ]</p>
+	<a href="#"><img src="assets/gobutton.jpg" name="gobutton" border="0" id="gobutton"/></a>
+	<input name="search" type="text" id="search" />
+ 	<p>search this site</p>
+
+</div>
+
+<!-- Title Box -->
+<div id="titlebox">
+
+  <img src="assets/icons/icon_rfidchip1.jpg" name="titleicon" id="titleicon"/>
+  <p> <strong>Welcome!</strong>  RFID Review is a publication featuring reviews of Radio Frequency Identification hardware, software, books and tags,  with an emphasis on the essentials that are a necessity to ensure a smooth ride on the wave of the future.</p>
+
+</div>
+
+
+<!-- Main Site Collumns-->
+<div id="wrapper">
+	
+	<div id="container">
+	
+	<!-- LEFT COLLUMN-->
+		<div id="leftcollumn">
+			
+			<!-- Main Menu-->	
+			<div class="b1-header">Main Menu</div>
+			
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr align="left"><td><a href="#" class="mainlevel-b1-item" id="active_menu-b1-item">Home</a></td></tr>
+	<tr align="left"><td><a href="#" class="mainlevel-b1-item" >About Us</a></td></tr>
+	<tr align="left"><td><a href="#" class="mainlevel-b1-item" >Overview</a></td></tr>
+	<tr align="left"><td><a href="#" class="mainlevel-b1-item" >Our Company</a></td></tr>
+	<tr align="left"><td><a href="#" class="mainlevel-b1-item" >Blog</a></td></tr>
+	<tr align="left"><td><a href="#" class="mainlevel-b1-item" >FAQs</a></td></tr>
+	<tr align="left"><td><a href="#" class="mainlevel-b1-item" >Contact Us</a></td></tr>
+</table>
+			
+			<div class="spacer"></div>
+			
+			<!-- Review Center Menu-->	
+			<div class="b2-header">Review Center</div>
+			<div class="b1-item"><a href="#">Overview</a></div>
+			<div class="b1-item"><a href="#">Testing Methodology</a></div>
+			<div class="b1-item"><a href="#">Equipment</a></div>
+			<div class="b1-item"><a href="#">Test Labs</a></div>
+			
+			<!-- RSS Image Map -->
+			<img src="assets/rss.jpg" border="0" usemap="#Map"/>
+			<map name="Map" id="Map">
+				<!-- RSS 0.91 --><area shape="rect" coords="12,13,57,36" href="#" />
+				<!-- RSS 1.0 --><area shape="rect" coords="11,39,59,57" href="#" />
+				<!-- RSS 2.0 --><area shape="rect" coords="11,59,59,77" href="#" />
+				<!-- ATOM 0.3 --><area shape="rect" coords="60,13,120,35" href="#" />
+				<!-- OPML 2.0 --><area shape="rect" coords="122,14,182,36" href="#" />
+			</map>
+			
+			
+		</div>
+		
+	<!-- CENTER (NEWS) COLLUMN-->
+		<div id="content">
+		
+			<!-- Start News Box-->
+				<div id="boxtop"><img src="assets/newsbox_topleft.jpg" id="left"/><img src="assets/newsbox_topright.jpg" id="right"/></div>
+				<div id="box">
+				
+					<span class="title"><a href="#">Alien Reader 9800</a></span>
+					<span class="date">Thursday, 25 May 2006</span>
+					<span class="content">
+					
+						<img src="assets/icons/image_alien.jpg" id="newsimg"/>
+						
+						Proin mi risus, consectetuer et, aliquet quis, scelerisque eu, tortor. Vivamus dictum 
+						tortor non ante. Etiam vulputate nonummy velit. Vestibulum scelerisque. Vivamus porta 
+						enim id arcu. Aenean nunc nulla, fermentum a, bibendum non, congue tempor, mi. Phasellus 
+						tempus mi ut diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+						tortor non ante. Etiam vulputate nonummy velit. Vestibulum scelerisque. Vivamus porta 
+						enim id arcu. Aenean nunc nulla, fermentum a, bibendum non, congue tempor, mi. Pellentesque nulla velit, pharetra in, imperdiet vel, venenatis 
+						at, lectus. Maecenas justo magna, consequat tempor, lobortis et, aliquet in, tellus.					
+					
+					</span>				
+				</div>
+				<div id="boxbottom">
+				
+					<span class="commentsbutton"><a href="#">Add Comment (0)</a></span>		
+					<a href="#"><img src="assets/readmorebutton.jpg" name="right" border="0" id="right"/></a> 
+					
+				</div>
+				<div id="boxshadow"></div>
+			<!-- End News Box-->
+			
+			<!-- Start News Box-->
+				<div id="boxtop"><img src="assets/newsbox_topleft.jpg" id="left"/><img src="assets/newsbox_topright.jpg" id="right"/></div>
+				<div id="box">
+				
+					<span class="title"><a href="#">Alien Reader 9800</a></span>
+					<span class="date">Thursday, 25 May 2006</span>
+					<span class="content">
+					
+						<img src="assets/icons/image_alien.jpg" id="newsimg"/>
+						
+						Proin mi risus, consectetuer et, aliquet quis, scelerisque eu, tortor. Vivamus dictum 
+						tortor non ante. Etiam vulputate nonummy velit. Vestibulum scelerisque. Vivamus porta 
+						enim id arcu. Aenean nunc nulla, fermentum a, bibendum non, congue tempor, mi. Phasellus 
+						tempus mi ut diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+						tortor non ante. Etiam vulputate nonummy velit. Vestibulum scelerisque. Vivamus porta 
+						enim id arcu. Aenean nunc nulla, fermentum a, bibendum non, congue tempor, mi. Pellentesque nulla velit, pharetra in, imperdiet vel, venenatis 
+						at, lectus. Maecenas justo magna, consequat tempor, lobortis et, aliquet in, tellus.					
+					
+					</span>				
+				</div>
+				<div id="boxbottom">
+				
+					<span class="commentsbutton"><a href="#">Add Comment (0)</a></span>		
+					<a href="#"><img src="assets/readmorebutton.jpg" name="right" border="0" id="right"/></a> 
+					
+				</div>
+				<div id="boxshadow"></div>
+			<!-- End News Box-->
+			
+		</div>
+		
+		<!-- RIGHT COLLUMN-->
+		<div id="rightcollumn">
+		
+			<!-- RFID Journal News Box-->	
+			<div class="b3-header">RFID Journal News</div>
+			<div class="gradcontent-list">
+			
+				<ul>
+			  
+			    <li><a href="#">RedPrairie Adds RFID Features to WMS</a></li>
+			    <li><a href="#">Intermec Sues Alien Over IP</a></li>
+			    <li><a href="#">RFID News Roundup</a></li> 
+			  
+			  	</ul>
+				
+			</div>
+			
+			<!-- RFID Journal News Box-->
+			<div class="b4-header">Upcoming Reviews</div>
+			<div class="gradcontent">
+			
+				<p> The SkyeModule&trade; M1 requires low power, high performance and is cost-effective.&nbsp; </p>
+				
+				<center><img src="assets/icons/m5.jpg"/></center>
+			
+				<p> But will it work with your device? </p> 
+			      
+			</div>
+			
+			<!-- Poll -->
+			<div class="b5-header">Poll</div>
+			<div class="gradcontent">
+			
+				<p> What is your main concern about RFID technology? <br />
+				
+				<input name="" type="radio" value="" /> Safety <br />
+				<input name="" type="radio" value="" /> Security <br />
+				<input name="" type="radio" value="" /> Cost  <br />
+				
+				<input type="button" value="Submit" />
+			    <a href="#">View results </a></p>
+				
+		  </div>
+			
+		</div>
+		
+	</div>
+	
+	<!-- This div is very important. Don't forget it! -->
+	<div id="footer"></div>
+	
+</div>
+
+<div id="footer-2">
+
+	<span class="leftfooter">
+		
+		<a href="#">Legal</a>  | 
+		<a href="#">About</a>  |
+		&copy; 2006 Pramari, Inc.  
+		
+	</span>
+		
+</div>
+
+</body>
+
+<!-- Mirrored from www.injectiondesign.com/work/rfidreview/index.html by HTTrack Website Copier/3.x [XR&CO'2008], Sun, 26 Jul 2009 02:26:30 GMT -->
+</html>

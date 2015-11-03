@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="PendingItems.aspx" title="Pending List"  description="">
+
+    <siteMapNode url="RaiseCRF_A.aspx" title="Raisa CRF A"  description="Show Items that need CRF A" />
+    <siteMapNode url="RecentUpdates.aspx" title="Recent Updates"  description="Show Recent Updates" />
+    
+    <siteMapNode url="PostDeployment.aspx" title="Post Deployment"  description="" />
+    <siteMapNode url="PreDeployment.aspx" title="Pre Deployment"  description="" />
+    <siteMapNode url="ThisWeekItems.aspx" title="This Week Items"  description="" />
+    <siteMapNode url="ExcelData.aspx" title="XL Sheet View"  description="" />
+    <siteMapNode url="Search.aspx" title="Search"  description="" />
+    <siteMapNode url="GetItemsByStatus.aspx" title="Items By Status"  description="Get items by their status" />
+    <siteMapNode url="UpdateItemStatus.aspx" title="Update Status"  description="Update Status of an item" />
+    <siteMapNode url="UpdateItem.aspx" title="Edit"  description="Edit the items information." />
+    <siteMapNode url="CreateNewItem.aspx" title="Create"  description="Create a new item" />
+    <siteMapNode url="FullDump.aspx" title="Complete Dump"  description="" />
+    <siteMapNode url="RMOWeekly.aspx" title="RMO-Week"  description="" />
+    <siteMapNode url="Remarks.aspx" title="Remarks Log"  description="" />
+    <siteMapNode url="RelatedItems.aspx" title="RelatedItems"  description="RelatedItems" />
+  </siteMapNode>
+</siteMap>
+

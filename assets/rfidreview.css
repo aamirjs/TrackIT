@@ -1,0 +1,228 @@
+#extender {
+	margin: 0px; background-image: url("bg_extend.jpg"); background-repeat: repeat-x; background-color: rgb(239, 240, 242);
+}
+#header {
+	margin: 0px auto;
+}
+#headercontainer {
+	width: 1001px; height: 128px; margin-right: auto; margin-left: auto;
+}
+#mainmenu .item a:link {
+	height: 38px; color: rgb(255, 255, 255); line-height: 34px; padding-right: 25px; padding-left: 25px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; text-decoration: none; float: left; display: block;
+}
+#mainmenu .item a:visited {
+	height: 38px; color: rgb(255, 255, 255); line-height: 34px; padding-right: 25px; padding-left: 25px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; text-decoration: none; float: left; display: block;
+}
+#mainmenu .item_selected a:link {
+	height: 38px; color: rgb(255, 255, 255); line-height: 34px; padding-right: 25px; padding-left: 25px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; text-decoration: none; float: left; display: block;
+}
+#mainmenu .item_selected a:visited {
+	height: 38px; color: rgb(255, 255, 255); line-height: 34px; padding-right: 25px; padding-left: 25px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; text-decoration: none; float: left; display: block;
+}
+#mainmenu .item_selected a:link {
+	background-image: url("bg_menu_down.jpg"); background-repeat: repeat-x;
+}
+#mainmenu .item_selected a:visited {
+	background-image: url("bg_menu_down.jpg"); background-repeat: repeat-x;
+}
+#mainmenu .item a:hover {
+	background-image: url("bg_menu_hover.jpg"); background-repeat: repeat-x;
+}
+#mainmenu {
+	margin: 0px auto; width: 1000px; height: 38px; background-image: url("bg_menu.jpg"); background-repeat: repeat-x;
+}
+#mainmenu .menu_break {
+	width: 2px; height: 38px; float: left; background-image: url("menu_break.jpg"); background-repeat: no-repeat;
+}
+#searchbox {
+	margin: 0px auto; width: 1000px; height: 34px; background-image: url("bg_searxhboc.jpg"); background-repeat: repeat-x;
+}
+#searchbox p {
+	margin: 0px; color: rgb(49, 66, 99); line-height: 30px; padding-right: 10px; padding-left: 10px; font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 11px; float: right; display: block;
+}
+#searchbox #search {
+	border: 1px solid rgb(107, 126, 158); height: 16px; padding-top: 2px; padding-left: 2px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; margin-top: 6px; margin-right: 5px; float: right; background-image: url("bg_search.jpg"); background-repeat: repeat-x; background-color: rgb(219, 228, 237);
+}
+#searchbox #gobutton {
+	margin-top: 7px; float: right;
+}
+#searchbox a:link {
+	color: rgb(38, 75, 132); text-decoration: none;
+}
+#searchbox a:visited {
+	color: rgb(38, 75, 132); text-decoration: none;
+}
+#searchbox a:hover {
+	color: rgb(55, 111, 193);
+}
+#titlebox {
+	margin: 0px auto; width: 1000px; height: 124px; background-image: url("bg_titleheader.jpg"); background-repeat: repeat-x;
+}
+#titlebox #titleicon {
+	margin-top: 16px; margin-left: 15px; float: left;
+}
+#titlebox p {
+	margin: 0px; width: 870px; height: 60px; color: rgb(123, 133, 153); line-height: 22px; overflow: visible; padding-top: 28px; padding-right: 16px; padding-left: 16px; clear: none; font-family: "Lucida Grande", Tahoma, Arial, sans-serif; font-size: 14px; float: left; display: block; white-space: normal; position: static;
+}
+#titlebox strong {
+	color: rgb(25, 48, 94); font-weight: bold;
+}
+#wrapper {
+	background-position: left; margin: 0px auto; padding: 0px; border: 0px currentColor; width: 1000px; text-align: left; background-image: url("leftcollumnbg.jpg"); background-repeat: repeat-y; background-color: rgb(255, 255, 255);
+}
+#header {
+	background: yellow; margin: 0px 0px 15px;
+}
+#leftcollumn {
+	width: 190px; float: left; background-image: url("leftcollumnbg.jpg"); background-repeat: repeat-y; background-color: rgb(239, 240, 242);
+}
+#rightcollumn {
+	width: 200px; float: right; background-color: rgb(255, 255, 255);
+}
+#content {
+	width: 608px; float: left; background-color: rgb(255, 255, 255);
+}
+#footer {
+	width: 1001px; clear: both;
+}
+.b1-header {
+	height: 28px; color: rgb(255, 255, 255); line-height: 25px; text-indent: 19px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; background-image: url("b1_headerbg.jpg"); background-repeat: repeat-x;
+}
+.b1-item a:link {
+	width: 188px; height: 26px; color: rgb(75, 84, 104); line-height: 21px; text-indent: 19px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-decoration: none; border-right-color: rgb(191, 196, 206); border-left-color: rgb(191, 196, 206); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; display: block; background-image: url("b1_contentbg.jpg"); background-repeat: repeat-x;
+}
+.b1-item a:visited {
+	width: 188px; height: 26px; color: rgb(75, 84, 104); line-height: 21px; text-indent: 19px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-decoration: none; border-right-color: rgb(191, 196, 206); border-left-color: rgb(191, 196, 206); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; display: block; background-image: url("b1_contentbg.jpg"); background-repeat: repeat-x;
+}
+a.mainlevel-b1-item:link {
+	width: 188px; height: 26px; color: rgb(75, 84, 104); line-height: 21px; text-indent: 19px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-decoration: none; border-right-color: rgb(191, 196, 206); border-left-color: rgb(191, 196, 206); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; display: block; background-image: url("b1_contentbg.jpg"); background-repeat: repeat-x;
+}
+a.mainlevel-b1-item:visited {
+	width: 188px; height: 26px; color: rgb(75, 84, 104); line-height: 21px; text-indent: 19px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-decoration: none; border-right-color: rgb(191, 196, 206); border-left-color: rgb(191, 196, 206); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; display: block; background-image: url("b1_contentbg.jpg"); background-repeat: repeat-x;
+}
+.b1-item_selected a:link {
+	width: 188px; height: 26px; color: rgb(0, 0, 0); line-height: 21px; text-indent: 19px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; text-decoration: none; border-right-color: rgb(191, 196, 206); border-left-color: rgb(191, 196, 206); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; display: block; background-image: url("item_bg_hover.jpg"); background-repeat: repeat-x;
+}
+.b1-item_selected a:visited {
+	width: 188px; height: 26px; color: rgb(0, 0, 0); line-height: 21px; text-indent: 19px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; text-decoration: none; border-right-color: rgb(191, 196, 206); border-left-color: rgb(191, 196, 206); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; display: block; background-image: url("item_bg_hover.jpg"); background-repeat: repeat-x;
+}
+.b1-item a:hover {
+	color: rgb(0, 0, 0);
+}
+.b1-item_selected a:hover {
+	color: rgb(0, 0, 0);
+}
+#leftcollumn .spacer {
+	width: 190px; height: 34px; background-image: url("spacerbg.jpg"); background-repeat: repeat-y;
+}
+.b2-header {
+	width: 100%; height: 28px; color: rgb(255, 255, 255); line-height: 25px; text-indent: 19px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; border-right-color: rgb(102, 117, 138); border-left-color: rgb(102, 117, 138); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; background-image: url("b2_headerbg.jpg"); background-repeat: repeat-x;
+}
+#boxtop {
+	height: 5px; margin-right: 19px; margin-left: 10px; background-color: rgb(185, 193, 208);
+}
+#boxtop #left {
+	float: left;
+}
+#boxtop #right {
+	float: right;
+}
+#box {
+	padding: 20px 18px; margin-right: 19px; margin-left: 10px; border-right-color: rgb(230, 233, 237); border-right-width: 1px; border-right-style: solid; background-image: url("newsbox_topbg.jpg"); background-repeat: repeat-x;
+}
+#box .title a:link {
+	color: rgb(62, 107, 168); font-family: Arial, Helvetica, sans-serif; font-size: 17px; text-decoration: none; border-bottom-color: rgb(190, 202, 222); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#box .title a:visited {
+	color: rgb(62, 107, 168); font-family: Arial, Helvetica, sans-serif; font-size: 17px; text-decoration: none; border-bottom-color: rgb(190, 202, 222); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#box .title a:hover {
+	color: rgb(32, 56, 89);
+}
+#box .date {
+	color: rgb(185, 191, 205); line-height: 25px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; display: block;
+}
+#box .content {
+	color: rgb(92, 100, 118); line-height: 18px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;
+}
+#newsimg {
+	margin-right: 14px; float: left;
+}
+#boxbottom {
+	height: 39px; padding-right: 20px; padding-left: 15px; margin-right: 19px; margin-left: 10px; border-right-color: rgb(230, 233, 237); border-right-width: 1px; border-right-style: solid;
+}
+.commentsbutton a:link {
+	height: 27px; color: rgb(103, 116, 141); padding-top: 4px; padding-left: 31px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-decoration: underline; float: left; display: block; background-image: url("commentsicon.jpg"); background-repeat: no-repeat;
+}
+.commentsbutton a:visited {
+	height: 27px; color: rgb(103, 116, 141); padding-top: 4px; padding-left: 31px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-decoration: underline; float: left; display: block; background-image: url("commentsicon.jpg"); background-repeat: no-repeat;
+}
+.commentsbutton a:hover {
+	color: rgb(49, 55, 68);
+}
+#boxbottom #right {
+	float: right;
+}
+#boxshadow {
+	height: 13px; margin-right: 19px; margin-bottom: 12px; margin-left: 10px; background-image: url("newsfooter.jpg"); background-repeat: repeat-x;
+}
+.b3-header {
+	height: 28px; color: rgb(119, 133, 152); line-height: 24px; text-indent: 15px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; background-color: rgb(45, 55, 86);
+}
+.gradcontent-list {
+	padding-top: 12px; margin-bottom: 20px; background-image: url("bg_gradbar.jpg"); background-repeat: repeat-x;
+}
+.gradcontent {
+	padding-top: 12px; margin-bottom: 20px; background-image: url("bg_gradbar.jpg"); background-repeat: repeat-x;
+}
+.gradcontent {
+	padding: 12px;
+}
+.gradcontent p {
+	margin: 0px; color: rgb(98, 106, 123); line-height: 18px; padding-right: 6px; padding-left: 6px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;
+}
+.gradcontent-list li {
+	line-height: 18px; list-style-type: square; list-style-image: url("bullet.jpg");
+}
+.gradcontent-list ul {
+	margin: auto;
+}
+.gradcontent-list a:link {
+	color: rgb(93, 107, 137); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-decoration: underline;
+}
+.gradcontent-list a:visited {
+	color: rgb(93, 107, 137); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-decoration: underline;
+}
+.gradcontent-list a:hover {
+	color: rgb(86, 138, 186);
+}
+.b4-header {
+	height: 28px; color: rgb(255, 255, 255); line-height: 24px; text-indent: 15px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; background-image: url("b4_headerbg.jpg"); background-repeat: repeat-x;
+}
+.b5-header {
+	height: 28px; color: rgb(255, 255, 255); line-height: 24px; text-indent: 15px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; background-image: url("b5_headerbg.jpg"); background-repeat: repeat-x;
+}
+.gradcontent a:link {
+	color: rgb(236, 119, 67);
+}
+.gradcontent a:visited {
+	color: rgb(236, 119, 67);
+}
+.gradcontent a:hover {
+	color: rgb(194, 72, 20);
+}
+#footer-2 {
+	margin: 0px auto; width: 1000px; height: 112px; background-image: url("footer_bg.jpg"); background-repeat: repeat-x;
+}
+#footer-2 .leftfooter {
+	left: 222px; top: 5px; color: rgb(130, 147, 166); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; position: relative;
+}
+.leftfooter a:link {
+	color: rgb(70, 119, 177); text-decoration: none;
+}
+.leftfooter a:visited {
+	color: rgb(70, 119, 177); text-decoration: none;
+}
+.leftfooter a:hover {
+	color: rgb(115, 153, 200);
+}

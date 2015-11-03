@@ -1,0 +1,267 @@
+﻿.modalBackground {     background-color: Gray;     filter: alpha(opacity=50);     opacity: 0.50; }  
+.updateProgress {     border-width: 1px;     border-style: solid;     background-color: #FFFFFF;     position: absolute;     width: 180px;     height: 65px; } 
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background-position: center;
+	font-size:12px;
+	background-color: #000;
+	font-family: Calibri;
+	margin-left: 2px;	
+}
+
+.toplinks
+{
+	padding: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin: 1.2px;
+	display: inline-block;
+	background-color: #161515;
+	border: thin solid #008000;
+	text-align: center;
+	vertical-align: middle;
+	width: 120px;
+	color: #0F0
+}
+
+#container
+{
+	width: 700px;
+	margin: 13px auto;
+}
+
+.mGrid
+{
+	
+	background-color: #222;
+	margin: 5px 0 10px 0;
+	border: solid 1px #525252;
+	border-collapse: collapse;
+	width: 100%;
+}
+.mGrid td
+{
+	padding: 2px;
+	border: solid 1px #c1c1c1;
+	color: #525252;
+}
+.mGrid th
+{
+	padding: 4px 2px;
+	color: #fff;
+	background: #9d9d9d url(grd_head.png) repeat-x top;
+	border-left: solid 1px #525252;
+	
+}
+.mGrid .alt
+{
+	background: url(grd_alt.png) repeat-x top;
+}
+.mGrid .pgr
+{
+	background: #424242 url(grd_pgr.png) repeat-x top;
+}
+.mGrid .pgr table
+{
+	margin: 5px 0;
+}
+.mGrid .pgr td
+{
+	border-width: 0;
+	padding: 0 6px;
+	border-left: solid 1px #666;
+	font-weight: bold;
+	color: #fff;
+	line-height: 13px;
+}
+.mGrid .pgr a
+{
+	color: #666;
+	text-decoration: none;
+}
+.mGrid .pgr a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+
+.grd
+{
+	background: #ccc url(grd_alt.png) repeat-x top;
+}
+.grd_head
+{
+	background: #ccc url(grd_head.png) repeat-x top;
+}
+.grd_head a
+{
+	color: #FFF;
+}
+.grd3
+{
+	background: #ccc url(grd3.png) repeat-x top;
+}
+
+
+.companyname
+{
+	
+}
+
+.hyperlinks1
+{
+	color: #ee0000;
+	font-size: 13px;
+}
+
+h1
+{
+	color: #E60000;
+	font-size: 12px;
+}
+h2
+{
+	color: #006600;
+	font-size: 12px;
+	
+}
+h3
+{
+	color: #990099;
+	font-size: 12px;
+	
+}
+h4
+{
+	color: #006699;
+	font-size: 12px;
+	
+}
+h5
+{
+	color: #7C0164;
+	font-size: 12px;
+	
+}
+
+.GridHeading{			color: #009933;}
+
+.sitepathcontainer
+{
+	background: #fcfcfc url(grd_alt.png);
+	border-left: solid 1px #525252;
+	text-align: right;
+	
+}
+.sitepath
+{
+	font-weight: bold;
+	background: #fcfcfc url(grd_alt.png);
+}
+
+.LeftIndex
+{
+}
+
+.LeftIndex a
+{
+	color: #B90000;
+	font-weight: bold;
+}
+
+.buttons{ font-size:11px; border: thin solid #CC3300;	color: #882222;	background-color: #7C7C7C;	width: 8em;	background: #ccc url(grd_alt.png) repeat-x top;}
+.textBoxes
+{
+	font-size: 11px;
+	
+	width: 200px;
+	border: thin solid #669900;
+	color: #006600;
+}
+.dropdownlists{	font-size:11px;	border: thin solid #669900; width: 200px; }
+.ListBoxes{	font-size:11px;	margin: 5px;}
+.Labels2
+{
+	display:inline-block;
+	min-height: 12px;
+	font-size: 11px;
+	width: 200px;
+	border: thin solid #669900;
+	color: #001100;
+	background-color: #fff;
+}
+.labels
+{
+	display: block;
+	color: #336600;
+	min-height: 12px;
+	font-weight: bold;
+}
+
+
+.pageborder
+{
+	border: solid 1em #FF9900;
+	margin: 2px;
+}
+
+.sectionheading{	background: #fcfcfc url(grd_alt.png);}
+.tabs
+{
+	position: relative;
+	top: 1px;
+	left: 10px;
+}
+.tab
+{
+	border: solid 1px black;
+	background-color: #eeeeee;
+	padding: 2px 10px;
+}
+.selectedTab
+{
+	background-color: white;
+	border-bottom: solid 1px white;
+}
+.tabContents
+{
+	border: solid 1px black;
+	padding: 10px;
+	background-color: white;
+}
+
+
+.slidingDiv {color: #FFFFFF;  }
+.show_hide {	}
+ 
+ a
+{
+	color: #1111CC;
+}
+
+a:hover
+{
+	color: #117711;
+}
+
+.link
+{
+	color: #FF0000;
+}
+
+
+.DynamicSearch
+{
+	overflow: scroll;
+	height: 10px;
+}

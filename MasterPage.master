@@ -1,0 +1,103 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+
+    <script src="jquery-1.6.2.js" type="text/javascript"></script>
+
+    <title>TrackIt</title>
+</head>
+<body style="background-color: #555">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="Div0" runat="server"  
+        style="vertical-align: top; text-align: left; width: 80%; margin-left: 10%; margin-right: 10%; background-color: #dedede; padding: 5px;">
+        <div id="Div1" runat="server" style="vertical-align: top; text-align: left; margin-top: -4px;
+            margin-bottom: -9px;">
+            <asp:ImageButton ID="ImageButton1" runat="server" AlternateText="home" Height="40px"
+                ImageUrl="~/home-icon.png" PostBackUrl="PendingItems.aspx" Width="40px" />
+        </div>
+        <table>
+            <tr>
+                <td class="column1" >
+                    <div id="topLinksDiv" runat="server" class="topLinksDiv" style="vertical-align: top; ">
+                        <asp:Label ID="a3" runat="server" CssClass="section" Text="RMO Links" />
+                        <a id="a9" runat="server" href="~/admin/CreateNewItem.aspx" class="toplinks">New Item</a>
+                        <a id="a11" runat="server" href="~/admin/RMOWeekly.aspx" class="toplinks">RMO Weekly</a>
+                        <a id="a7" runat="server" href="~/WeeklyDeployment.aspx" class="toplinks">Weekly Deployments</a>
+                        <a id="a2" runat="server" href="~/PostDeployment.aspx?StateID=19" class="toplinks">Deployments</a>
+                        <a id="a1" runat="server" href="~/RecentUpdates.aspx" class="toplinks">Recent Updates</a>
+                        <a id="A19" runat="server" href="StageSummary.aspx?Stage=4" class="toplinks">Pre-Deployment</a>
+                        <a id="A22" runat="server" href="Reminders.aspx" class="toplinks">Reminders</a>
+                        <a id="A25" runat="server" href="ScheduledDeployments.aspx" class="toplinks">Scheduled
+                            Dep</a> <a id="A21" runat="server" href="Incidents.aspx" class="toplinks">Incidents</a>
+                        <a id="A24" runat="server" href="~/Admin/SWIncident.aspx" class="toplinks">S/W Incidents</a>
+                        <a id="A26" runat="server" href="DeploymentvsSchedules.aspx" class="toplinks">Scheduled
+                            Vs Dep</a> <a id="a15" runat="server" href="~/admin/Workshops.aspx" class="toplinks">
+                                Workshops</a> <a id="a4" runat="server" href="~/ExcelData.aspx" class="toplinks">XL
+                                    Sheet</a> <a id="a10" runat="server" href="~/FullDump.aspx" class="toplinks">Complete
+                                        Dump</a>
+                        <asp:Label ID="Label1" runat="server" CssClass="section" Text="Dev Links" />
+                        <a id="A28" runat="server" href="FillChecklist.aspx" class="toplinks">SD Checklist</a>
+                        <a id="a5" runat="server" href="~/Search.aspx" class="toplinks">Search</a> <a id="a6"
+                            runat="server" href="~/GetItemsByStatus.aspx" class="toplinks">View By Status</a>
+                        <a id="a12" runat="server" href="~/RelatedItems.aspx" class="toplinks">Related Items</a>
+                        <a id="a13" runat="server" href="~/BuildSummary.aspx" class="toplinks">Builds</a>
+                        <a id="A14" runat="server" href="~/Progress.aspx" class="toplinks">Progress</a>
+                        <a id="A20" runat="server" href="~/StageSummary.aspx" class="toplinks">Stage Summary</a>
+                        <a id="A27" runat="server" href="ServersNApps.aspx" class="toplinks">Server-Apps</a>
+                        <a id="A18" runat="server" href="DataScripts.aspx" class="toplinks">Data Scripts</a>
+                        <asp:Label ID="Label3" runat="server" CssClass="section" Text="QA Links" />
+                        <a id="A23" runat="server" href="~/QA/BugsByItem.aspx" class="toplinks">Bugs</a>
+                        <a id="bt" runat="server" href="http://dxbshabreenm2/bugnet/" class="toplinks">Bug Tracker</a><br />
+                        <asp:Label ID="Label2" runat="server" CssClass="section" Text="IT Links" />
+                        <a id="A16" runat="server" href="~/IT/IncidentManagement.aspx" class="toplinks">Incident
+                            Mgt</a> <a id="A17" runat="server" href="~/IT/CRFIT.aspx" class="toplinks">CRF's</a>
+                        <a id="a0" runat="server" href="~/PendingItems.aspx" class="toplinks">Home</a>
+                        <asp:Label ID="Label4" runat="server" CssClass="section" Text="L2" />
+                        <a id="a8" runat="server" href="~/PendingPDCTickets.aspx" class="toplinks">PDC Tickets</a>
+                        <asp:Label ID="Label5" runat="server" CssClass="section" Text="CCB Admins" />
+                        <a id="a29" runat="server" href="~/admin/FormattedDump.aspx" class="toplinks">Formatted
+                            Dimensions Dump</a>
+                    </div>
+                </td>
+                <td class="column2">
+                    <div id="container" runat="server" style="vertical-align: top; ">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="topinfotag">
+            <%= UserName %>
+        </div>
+        <div class="topinfotag">
+            <a href="" id="lnkTRAPS" runat="server">TRAPS.</a>
+        </div>
+        <div class="topinfotag">
+            <%= connectedTo %>
+        </div>
+        <div id="topRmoLinks" runat="server" class="topLinksDiv">
+            <asp:DataList ID="UrlList1" runat="server" CellPadding="3" RepeatColumns="15" RepeatDirection="Horizontal"
+                CssClass="topLinksDiv" RepeatLayout="Flow" BorderColor="#999999" BorderStyle="None"
+                BorderWidth="1px" GridLines="Vertical">
+                <FooterStyle BackColor="#CCCCCC" ForeColor="Black" />
+                <AlternatingItemStyle BackColor="#DCDCDC" />
+                <ItemStyle BackColor="#EEEEEE" ForeColor="Black" />
+                <SelectedItemStyle BackColor="#008A8C" Font-Bold="True" ForeColor="White" />
+                <HeaderStyle BackColor="#000084" Font-Bold="True" ForeColor="White" />
+                <ItemTemplate>
+                    <a href="<%# ApplicationRoot %>/StageSummary.aspx?Stage=<%# DataBinder.Eval(Container.DataItem, "StageID") %>">
+                        <%# DataBinder.Eval(Container.DataItem, "Stage") %></a>/
+                </ItemTemplate>
+            </asp:DataList>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

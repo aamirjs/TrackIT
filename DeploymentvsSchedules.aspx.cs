@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class DeploymentvsSchedules : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if(!IsPostBack)
+            GetDepCounts();
+    }
+
+    private void GetMissedDeployments()
+    {
+        GridView1.DataSource = DepDatesDAL.GetDeploymentvsSchedules();
+        GridView1.DataBind();
+    }
+
+    private void GetDepCounts()
+    {
+        GridView1.DataSource = DepDatesDAL.GetDeploymentvsSchedules();
+        GridView1.DataBind();
+    }
+
+
+
+}
